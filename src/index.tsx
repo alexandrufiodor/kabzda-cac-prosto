@@ -15,3 +15,23 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+let a = {
+    name: 45
+};
+
+a = {
+    name: 25
+};
+
+
+let b  = [
+    {
+        name: 45
+    },
+    {
+        name: 38
+    }
+]
