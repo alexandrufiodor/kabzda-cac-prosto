@@ -17,21 +17,3 @@ ReactDOM.render(
 reportWebVitals();
 
 
-
-let a = {
-    name: 45
-};
-
-a = {
-    name: 25
-};
-
-
-let b  = [
-    {
-        name: 45
-    },
-    {
-        name: 38
-    }
-]
