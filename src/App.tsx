@@ -6,20 +6,22 @@ import {Rating} from "./components/Rating/Rating";
 function App() {
     return (
         <div className="App">
-          <PageTitle title="PageTitle"/>
+            <PageTitle title="This is APP Component"/>
             <Rating value={2}/>
             <Rating value={4}/>
-            <Accordion title={"Menu"}/>
-            <Accordion title={"Menu 2"}/>
+            <Accordion titleValue={"Menu"} collapsed={true}/>
+            <Accordion titleValue={"User"} collapsed={false}/>
         </div>
     );
 }
 
-
-function PageTitle(props: any) {
-    return <h1>{props.title}</h1>
+type PageTitlePropsTitle = {
+    title: string
 }
 
+function PageTitle(props: PageTitlePropsTitle) {
+    return <h1>{props.title}</h1>
+}
 
 
 export default App;
